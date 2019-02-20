@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B01914221BD78500CD9ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01913221BD78500CD9ECF /* AppDelegate.m */; };
+		57B01917221BD78500CD9ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01916221BD78500CD9ECF /* ViewController.m */; };
+		57B0191A221BD78500CD9ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B01918221BD78500CD9ECF /* Main.storyboard */; };
+		57B0191C221BD78700CD9ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B0191B221BD78700CD9ECF /* Assets.xcassets */; };
+		57B0191F221BD78700CD9ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B0191D221BD78700CD9ECF /* LaunchScreen.storyboard */; };
+		57B01922221BD78700CD9ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01921221BD78700CD9ECF /* main.m */; };
+		57B0192C221BD78700CD9ECF /* LXSubmitButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0192B221BD78700CD9ECF /* LXSubmitButtonTests.m */; };
+		57B01937221BD78700CD9ECF /* LXSubmitButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01936221BD78700CD9ECF /* LXSubmitButtonUITests.m */; };
+		57B01948221BD96100CD9ECF /* LXSubmitLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01947221BD96100CD9ECF /* LXSubmitLoadingView.m */; };
+		57B0194B221BD97300CD9ECF /* LXSubmitSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0194A221BD97300CD9ECF /* LXSubmitSuccessView.m */; };
+		57B0194E221BDDB900CD9ECF /* LXSubmitAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0194D221BDDB900CD9ECF /* LXSubmitAnimationView.m */; };
+		57B01951221BE7F000CD9ECF /* LXSubmittonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01950221BE7F000CD9ECF /* LXSubmittonButton.m */; };
+		57B01999221BEC8800CD9ECF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B01998221BEC8800CD9ECF /* UIView+Frame.m */; };
+		57B0199C221C017700CD9ECF /* HudController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B0199B221C017700CD9ECF /* HudController.m */; };
+		81D1B50ABEEBF55F504CF183 /* Pods_LXSubmitButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A59D6F3C082302160F779576 /* Pods_LXSubmitButton.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B01928221BD78700CD9ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B01907221BD78500CD9ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0190E221BD78500CD9ECF;
+			remoteInfo = LXSubmitButton;
+		};
+		57B01933221BD78700CD9ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B01907221BD78500CD9ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0190E221BD78500CD9ECF;
+			remoteInfo = LXSubmitButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1977E933456D91C77EED7E17 /* Pods-LXSubmitButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSubmitButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXSubmitButton/Pods-LXSubmitButton.release.xcconfig"; sourceTree = "<group>"; };
+		57B0190F221BD78500CD9ECF /* LXSubmitButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXSubmitButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B01912221BD78500CD9ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57B01913221BD78500CD9ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57B01915221BD78500CD9ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57B01916221BD78500CD9ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57B01919221BD78500CD9ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B0191B221BD78700CD9ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B0191E221BD78700CD9ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B01920221BD78700CD9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B01921221BD78700CD9ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B01927221BD78700CD9ECF /* LXSubmitButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSubmitButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B0192B221BD78700CD9ECF /* LXSubmitButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmitButtonTests.m; sourceTree = "<group>"; };
+		57B0192D221BD78700CD9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B01932221BD78700CD9ECF /* LXSubmitButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSubmitButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B01936221BD78700CD9ECF /* LXSubmitButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmitButtonUITests.m; sourceTree = "<group>"; };
+		57B01938221BD78700CD9ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B01944221BD8A300CD9ECF /* LX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LX.pch; sourceTree = "<group>"; };
+		57B01946221BD96100CD9ECF /* LXSubmitLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSubmitLoadingView.h; sourceTree = "<group>"; };
+		57B01947221BD96100CD9ECF /* LXSubmitLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmitLoadingView.m; sourceTree = "<group>"; };
+		57B01949221BD97300CD9ECF /* LXSubmitSuccessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSubmitSuccessView.h; sourceTree = "<group>"; };
+		57B0194A221BD97300CD9ECF /* LXSubmitSuccessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmitSuccessView.m; sourceTree = "<group>"; };
+		57B0194C221BDDB900CD9ECF /* LXSubmitAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSubmitAnimationView.h; sourceTree = "<group>"; };
+		57B0194D221BDDB900CD9ECF /* LXSubmitAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmitAnimationView.m; sourceTree = "<group>"; };
+		57B0194F221BE7F000CD9ECF /* LXSubmittonButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSubmittonButton.h; sourceTree = "<group>"; };
+		57B01950221BE7F000CD9ECF /* LXSubmittonButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSubmittonButton.m; sourceTree = "<group>"; };
+		57B01997221BEC8800CD9ECF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		57B01998221BEC8800CD9ECF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		57B0199A221C017700CD9ECF /* HudController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudController.h; sourceTree = "<group>"; };
+		57B0199B221C017700CD9ECF /* HudController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HudController.m; sourceTree = "<group>"; };
+		92EE90171D44157213910A85 /* Pods-LXSubmitButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSubmitButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXSubmitButton/Pods-LXSubmitButton.debug.xcconfig"; sourceTree = "<group>"; };
+		A59D6F3C082302160F779576 /* Pods_LXSubmitButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXSubmitButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B0190C221BD78500CD9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D1B50ABEEBF55F504CF183 /* Pods_LXSubmitButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B01924221BD78700CD9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B0192F221BD78700CD9ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B01906221BD78500CD9ECF = {
+			isa = PBXGroup;
+			children = (
+				57B01911221BD78500CD9ECF /* LXSubmitButton */,
+				57B0192A221BD78700CD9ECF /* LXSubmitButtonTests */,
+				57B01935221BD78700CD9ECF /* LXSubmitButtonUITests */,
+				57B01910221BD78500CD9ECF /* Products */,
+				CFEC860025CB05E2832D9FDA /* Pods */,
+				8C4CCD8914938B97870AFD8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57B01910221BD78500CD9ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B0190F221BD78500CD9ECF /* LXSubmitButton.app */,
+				57B01927221BD78700CD9ECF /* LXSubmitButtonTests.xctest */,
+				57B01932221BD78700CD9ECF /* LXSubmitButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B01911221BD78500CD9ECF /* LXSubmitButton */ = {
+			isa = PBXGroup;
+			children = (
+				57B01912221BD78500CD9ECF /* AppDelegate.h */,
+				57B01913221BD78500CD9ECF /* AppDelegate.m */,
+				57B01915221BD78500CD9ECF /* ViewController.h */,
+				57B01916221BD78500CD9ECF /* ViewController.m */,
+				57B0199A221C017700CD9ECF /* HudController.h */,
+				57B0199B221C017700CD9ECF /* HudController.m */,
+				57B01996221BEC7700CD9ECF /* Category */,
+				57B01945221BD92F00CD9ECF /* LXSubmitButton */,
+				57B01918221BD78500CD9ECF /* Main.storyboard */,
+				57B0191B221BD78700CD9ECF /* Assets.xcassets */,
+				57B0191D221BD78700CD9ECF /* LaunchScreen.storyboard */,
+				57B01920221BD78700CD9ECF /* Info.plist */,
+				57B01921221BD78700CD9ECF /* main.m */,
+				57B01944221BD8A300CD9ECF /* LX.pch */,
+			);
+			path = LXSubmitButton;
+			sourceTree = "<group>";
+		};
+		57B0192A221BD78700CD9ECF /* LXSubmitButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B0192B221BD78700CD9ECF /* LXSubmitButtonTests.m */,
+				57B0192D221BD78700CD9ECF /* Info.plist */,
+			);
+			path = LXSubmitButtonTests;
+			sourceTree = "<group>";
+		};
+		57B01935221BD78700CD9ECF /* LXSubmitButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57B01936221BD78700CD9ECF /* LXSubmitButtonUITests.m */,
+				57B01938221BD78700CD9ECF /* Info.plist */,
+			);
+			path = LXSubmitButtonUITests;
+			sourceTree = "<group>";
+		};
+		57B01945221BD92F00CD9ECF /* LXSubmitButton */ = {
+			isa = PBXGroup;
+			children = (
+				57B01946221BD96100CD9ECF /* LXSubmitLoadingView.h */,
+				57B01947221BD96100CD9ECF /* LXSubmitLoadingView.m */,
+				57B01949221BD97300CD9ECF /* LXSubmitSuccessView.h */,
+				57B0194A221BD97300CD9ECF /* LXSubmitSuccessView.m */,
+				57B0194C221BDDB900CD9ECF /* LXSubmitAnimationView.h */,
+				57B0194D221BDDB900CD9ECF /* LXSubmitAnimationView.m */,
+				57B0194F221BE7F000CD9ECF /* LXSubmittonButton.h */,
+				57B01950221BE7F000CD9ECF /* LXSubmittonButton.m */,
+			);
+			path = LXSubmitButton;
+			sourceTree = "<group>";
+		};
+		57B01996221BEC7700CD9ECF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57B01997221BEC8800CD9ECF /* UIView+Frame.h */,
+				57B01998221BEC8800CD9ECF /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8C4CCD8914938B97870AFD8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59D6F3C082302160F779576 /* Pods_LXSubmitButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFEC860025CB05E2832D9FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92EE90171D44157213910A85 /* Pods-LXSubmitButton.debug.xcconfig */,
+				1977E933456D91C77EED7E17 /* Pods-LXSubmitButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B0190E221BD78500CD9ECF /* LXSubmitButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B0193B221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButton" */;
+			buildPhases = (
+				F474578BE9AFAC363AD6F825 /* [CP] Check Pods Manifest.lock */,
+				57B0190B221BD78500CD9ECF /* Sources */,
+				57B0190C221BD78500CD9ECF /* Frameworks */,
+				57B0190D221BD78500CD9ECF /* Resources */,
+				32C276AAEA534DC3A7503DE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXSubmitButton;
+			productName = LXSubmitButton;
+			productReference = 57B0190F221BD78500CD9ECF /* LXSubmitButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B01926221BD78700CD9ECF /* LXSubmitButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B0193E221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButtonTests" */;
+			buildPhases = (
+				57B01923221BD78700CD9ECF /* Sources */,
+				57B01924221BD78700CD9ECF /* Frameworks */,
+				57B01925221BD78700CD9ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B01929221BD78700CD9ECF /* PBXTargetDependency */,
+			);
+			name = LXSubmitButtonTests;
+			productName = LXSubmitButtonTests;
+			productReference = 57B01927221BD78700CD9ECF /* LXSubmitButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57B01931221BD78700CD9ECF /* LXSubmitButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B01941221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButtonUITests" */;
+			buildPhases = (
+				57B0192E221BD78700CD9ECF /* Sources */,
+				57B0192F221BD78700CD9ECF /* Frameworks */,
+				57B01930221BD78700CD9ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B01934221BD78700CD9ECF /* PBXTargetDependency */,
+			);
+			name = LXSubmitButtonUITests;
+			productName = LXSubmitButtonUITests;
+			productReference = 57B01932221BD78700CD9ECF /* LXSubmitButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B01907221BD78500CD9ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					57B0190E221BD78500CD9ECF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					57B01926221BD78700CD9ECF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 57B0190E221BD78500CD9ECF;
+					};
+					57B01931221BD78700CD9ECF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 57B0190E221BD78500CD9ECF;
+					};
+				};
+			};
+			buildConfigurationList = 57B0190A221BD78500CD9ECF /* Build configuration list for PBXProject "LXSubmitButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B01906221BD78500CD9ECF;
+			productRefGroup = 57B01910221BD78500CD9ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B0190E221BD78500CD9ECF /* LXSubmitButton */,
+				57B01926221BD78700CD9ECF /* LXSubmitButtonTests */,
+				57B01931221BD78700CD9ECF /* LXSubmitButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B0190D221BD78500CD9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B0191F221BD78700CD9ECF /* LaunchScreen.storyboard in Resources */,
+				57B0191C221BD78700CD9ECF /* Assets.xcassets in Resources */,
+				57B0191A221BD78500CD9ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B01925221BD78700CD9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B01930221BD78700CD9ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C276AAEA534DC3A7503DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LXSubmitButton/Pods-LXSubmitButton-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXSubmitButton/Pods-LXSubmitButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F474578BE9AFAC363AD6F825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXSubmitButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B0190B221BD78500CD9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B0199C221C017700CD9ECF /* HudController.m in Sources */,
+				57B01999221BEC8800CD9ECF /* UIView+Frame.m in Sources */,
+				57B01917221BD78500CD9ECF /* ViewController.m in Sources */,
+				57B0194E221BDDB900CD9ECF /* LXSubmitAnimationView.m in Sources */,
+				57B01948221BD96100CD9ECF /* LXSubmitLoadingView.m in Sources */,
+				57B0194B221BD97300CD9ECF /* LXSubmitSuccessView.m in Sources */,
+				57B01922221BD78700CD9ECF /* main.m in Sources */,
+				57B01951221BE7F000CD9ECF /* LXSubmittonButton.m in Sources */,
+				57B01914221BD78500CD9ECF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B01923221BD78700CD9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B0192C221BD78700CD9ECF /* LXSubmitButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B0192E221BD78700CD9ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B01937221BD78700CD9ECF /* LXSubmitButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B01929221BD78700CD9ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B0190E221BD78500CD9ECF /* LXSubmitButton */;
+			targetProxy = 57B01928221BD78700CD9ECF /* PBXContainerItemProxy */;
+		};
+		57B01934221BD78700CD9ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B0190E221BD78500CD9ECF /* LXSubmitButton */;
+			targetProxy = 57B01933221BD78700CD9ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57B01918221BD78500CD9ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B01919221BD78500CD9ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B0191D221BD78700CD9ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B0191E221BD78700CD9ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B01939221BD78700CD9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57B0193A221BD78700CD9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B0193C221BD78700CD9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EE90171D44157213910A85 /* Pods-LXSubmitButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF7SKJR3F5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSubmitButton/LX.pch";
+				INFOPLIST_FILE = LXSubmitButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B0193D221BD78700CD9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1977E933456D91C77EED7E17 /* Pods-LXSubmitButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF7SKJR3F5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSubmitButton/LX.pch";
+				INFOPLIST_FILE = LXSubmitButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57B0193F221BD78700CD9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXSubmitButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXSubmitButton.app/LXSubmitButton";
+			};
+			name = Debug;
+		};
+		57B01940221BD78700CD9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXSubmitButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXSubmitButton.app/LXSubmitButton";
+			};
+			name = Release;
+		};
+		57B01942221BD78700CD9ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXSubmitButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXSubmitButton;
+			};
+			name = Debug;
+		};
+		57B01943221BD78700CD9ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXSubmitButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lxx.LXSubmitButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXSubmitButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B0190A221BD78500CD9ECF /* Build configuration list for PBXProject "LXSubmitButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B01939221BD78700CD9ECF /* Debug */,
+				57B0193A221BD78700CD9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B0193B221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B0193C221BD78700CD9ECF /* Debug */,
+				57B0193D221BD78700CD9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B0193E221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B0193F221BD78700CD9ECF /* Debug */,
+				57B01940221BD78700CD9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B01941221BD78700CD9ECF /* Build configuration list for PBXNativeTarget "LXSubmitButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B01942221BD78700CD9ECF /* Debug */,
+				57B01943221BD78700CD9ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B01907221BD78500CD9ECF /* Project object */;
+}
