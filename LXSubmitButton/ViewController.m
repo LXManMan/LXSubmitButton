@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"自定义hud";
+    self.title = @"LXX";
    
 //    self.loadingView  = [[LXSubmitLoadingView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
 //
