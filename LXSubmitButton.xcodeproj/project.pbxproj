@@ -568,9 +568,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZF7SKJR3F5;
+				DEVELOPMENT_TEAM = 8YHW7ZBZ5L;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSubmitButton/LX.pch";
 				INFOPLIST_FILE = LXSubmitButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,9 +588,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZF7SKJR3F5;
+				DEVELOPMENT_TEAM = 8YHW7ZBZ5L;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LXSubmitButton/LX.pch";
 				INFOPLIST_FILE = LXSubmitButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
